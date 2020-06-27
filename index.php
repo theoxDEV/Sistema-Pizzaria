@@ -1,24 +1,34 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-    <!-- CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     
+    <!-- STYLES -->
+    <link rel="stylesheet" href="components/css/style.css">
+    <link rel="stylesheet" href="components/css/mdb.min.css">
+    <link rel="stylesheet" href="components/css/bootstrap.css">
+    <link rel="stylesheet" href="components/js/jquery.min.js">
+    <link rel="stylesheet" href="components/js/bootstrap.min.js">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <style type="text/css">
-      a:link
-      {
-        text-decoration:none;
-        color:black;
-      }
+
+      a:link 
+      { 
+      color: black;
+      text-decoration:none; 
+      text-decoration-color: black;
+      } 
 
       DIV.logo {
         min-height: 10em;
-        vertical-align: middle;
-        justify-content: center;
+        vertical-align: auto;
+        justify-content: auto;
         text-align: center;
         margin: 0px auto;
       }
@@ -34,16 +44,59 @@
     <title>Pizzaria!</title>
   </head>
   <body>
+      
 
-  <!-- CONTATOS (ROXO) -->
+
+
+
+
+
+  <!-- CONTATOS -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <!-- CONTATOS -->
+
+
+  <!-- CONTATOS (BAIXO) -->
   <div class="headerPageMatheus">
     <nav class="container-fluid" style="background-color: #d3d3d3;">
       <a href="https://www.linkedin.com/in/matheus-nascimento-3582a5175/">
-        <img src="imagens/linkedin.png" width="30" height="30" alt="linkedinIcone">
+        <img src="imagens/linkedin.png" width="30" height="30" id="linkedinIcone">
         Linkedin
       </a>
       <a href="https://github.com/theoxDEV">
-        <img src="imagens/github.png" width="30" height="30" alt="gitHubIcone">
+        <img src="imagens/github.png" width="30" height="30" id="gitHubIcone">
         GitHub
       </a>
     </nav>
@@ -59,13 +112,4 @@
       </div>
       </a>
     </div>
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  </body>
 </html>
