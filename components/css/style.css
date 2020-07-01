@@ -1,0 +1,37 @@
+a:link { 
+    color: black;
+    text-decoration:none; 
+    text-decoration-color: black;
+} 
+
+DIV.logo {
+    min-height: 10em;
+    vertical-align: auto;
+    justify-content: auto;
+    text-align: center;
+    margin: 0px auto;
+}
+
+DIV.headerPageMatheus{
+    bottom: 0;
+    text-align: center;
+    position:fixed;
+    width:100%;
+}
+
+.h2{
+    color: white;
+}
+
+.item img{
+    width: 100%;
+}
+
+
+
+/* STYLE DO SIDEBAR */
+
+    
+
+/* FIM DO STYLE SIDEBAR*/
+
